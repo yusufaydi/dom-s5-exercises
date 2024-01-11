@@ -35,6 +35,10 @@ function updateFirstTitle(str) {
   newh1.innerText = str;
 }
 
+function hello() {
+  console.log("hello");
+}
+
 function AddText() {
   let newText = "deneme metin içerik";
   let myh1 = document.getElementById("myh1");
