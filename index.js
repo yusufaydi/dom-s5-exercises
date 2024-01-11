@@ -104,7 +104,6 @@ let filterUl = () => {
 function appendAndRemove() {
   let ulList = document.getElementById("101");
   let createLiElement = document.createElement("li");
-  let createLiElement2 = ulList.createElement("li");
   createLiElement.innerText = "Hello Li Element";
   ulList.appendChild(createLiElement);
   let removeElement = document.querySelector("li");
