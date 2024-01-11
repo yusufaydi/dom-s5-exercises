@@ -35,7 +35,7 @@ function updateFirstTitle(str) {
   newh1.innerText = str;
 }
 
-function hello() {
+function hello2() {
   console.log("hello");
 }
 
